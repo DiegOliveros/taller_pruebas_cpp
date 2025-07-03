@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(mi_programa src/main.cpp)
 add_executable(test_runner
-    test/runner.cpp
-    test/pruebas.cpp
+    test/test_runner.cpp
+    test/test_pruebas.cpp
 )
